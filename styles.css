@@ -1,0 +1,121 @@
+/* COLORS
+PEACH #EDAC98;
+PRICKLY PEAR #D01D58;
+TEAL #4BACBB;
+GREEN #81BB99;
+SUNFLOWER #ECBF61;
+*/
+
+body {
+    font-family: 'Futura';
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1,
+h2 {
+    font-family: 'Courier New';
+}
+
+header h1 {
+    display: inline;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header img {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+#navbarNav.collapse.navbar-collapse {
+    background-color: #EDAC98;
+    padding: 8px;
+}
+
+a.nav-link {
+    color: black;
+}
+
+a.nav-link:hover {
+    color: #D01D58;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.about {
+    padding: 20px;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.contact {
+    padding: 18px;
+}
+
+.btn.btn-primary {
+    background-color: #ed989b;
+    border-color: #4BACBB;
+}
+
+.resume {
+    max-width: 100%;
+}
+
+.social {
+    padding: 10px;
+}
+
+.social img {
+    max-width: 35%;
+    height: auto;
+}
+
+.unsplash {
+    text-align: center;
+    padding-top: 6px;
+    color: #D01D58;
+}
+
+.unsplash a {
+    color: #4BACBB;
+}
+
+footer {
+    background-color: #EDAC98;
+    font-family: 'Courier New';
+    padding: 10px;
+    text-align: center;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 992px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.resume {
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+    padding: 10px;
+}
+
+.social img {
+    max-width: 35%;
+    height: auto;
+}
